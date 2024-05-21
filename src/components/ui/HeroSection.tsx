@@ -4,7 +4,7 @@ import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 function HeroSection() {
   return (
     <div className=" h-auto mid:h-[40rem] w-full rounded-md flex flex-col items-center justify-center relative overflow-hidden mx-auto py-10 md:py-0">
-      <div className="z-10 flex flex-col p-4 items-center justify-center text-center space-y-4">
+      <div className="z-10 flex flex-col p-4 items-center justify-center text-center space-y-4 mt-32">
         <Avatar>
           <AvatarImage src="https://github.com/shadcn.png" />
           <AvatarFallback>CN</AvatarFallback>
